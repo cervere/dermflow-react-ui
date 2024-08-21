@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/dermflow-react-ui/static/css/main.86fe762b.css",
-    "main.js": "/dermflow-react-ui/static/js/main.99673491.js",
+    "main.js": "/dermflow-react-ui/static/js/main.4c28af63.js",
     "static/js/787.86007b32.chunk.js": "/dermflow-react-ui/static/js/787.86007b32.chunk.js",
     "static/media/logo-cropped.svg": "/dermflow-react-ui/static/media/logo-cropped.de8fdb583a8ee9afd66f36bc0a10c70c.svg",
     "static/media/LogoDermFlowAI.svg": "/dermflow-react-ui/static/media/LogoDermFlowAI.8654e59d128269c233874b06407ad913.svg",
     "index.html": "/dermflow-react-ui/index.html",
     "main.86fe762b.css.map": "/dermflow-react-ui/static/css/main.86fe762b.css.map",
-    "main.99673491.js.map": "/dermflow-react-ui/static/js/main.99673491.js.map",
+    "main.4c28af63.js.map": "/dermflow-react-ui/static/js/main.4c28af63.js.map",
     "787.86007b32.chunk.js.map": "/dermflow-react-ui/static/js/787.86007b32.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86fe762b.css",
-    "static/js/main.99673491.js"
+    "static/js/main.4c28af63.js"
   ]
 }
