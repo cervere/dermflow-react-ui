@@ -6,6 +6,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SearchIcon from '@mui/icons-material/Search';
 import MergeIcon from '@mui/icons-material/Merge';
 import WaterDropIcon from '@mui/icons-material/WaterDrop';
+import ImageSearchIcon from '@mui/icons-material/ImageSearch';
 import RadarIcon from '@mui/icons-material/Radar';
 // import { ReactComponent as Logo } from './logo-cropped.svg';
 // import logoImg from './logo.png';
@@ -27,6 +28,10 @@ import DataViz from './DataViz';
 import BubbleChartIcon from '@mui/icons-material/BubbleChart';
 import TableChartIcon from '@mui/icons-material/TableChart';
 import Consultation from './Consultation';
+import ExpertInput from './ExpertInput';
+import ImageBrowser from './ImageBrowser';
+import RandomImage from './RandomImage';
+
 import { BoxplotViolinMirrorDemo } from './viz/raincloud/BoxplotViolinMirrorDemo';
 import { RadarPlotContainer } from './viz/radar/RadarPlotContainer';
 
@@ -97,7 +102,25 @@ const HomePage = () => {
                   <MergeIcon />
                   <span>Consultation</span>
                 </Link>
+                </li> 
+                <li key={'expert'}>
+                <Link to="/expert">
+                  <MergeIcon />
+                  <span>Expert Input</span>
+                </Link>
                 </li>  
+                <li key={'images'}>
+                <Link to="/images">
+                  <ImageSearchIcon />
+                  <span>Images</span>
+                </Link>
+                </li>   
+                <li key={'random'}>
+                <Link to="/random">
+                  <ImageSearchIcon />
+                  <span>Random</span>
+                </Link>
+                </li>     
               {
                 links.filter(({active}) => active).map(({route, icon, title}, i) => (
                 <li key={i}>
@@ -219,6 +242,24 @@ const HomePage = () => {
           path="/consult"
           element={
             <Consultation />
+          }
+          />
+          <Route 
+          path="/expert"
+          element={
+            <ExpertInput />
+          }
+          />
+          <Route 
+          path="/images"
+          element={
+            <ImageBrowser />
+          }
+          />
+          <Route 
+          path="/random"
+          element={
+            <RandomImage />
           }
           />
         </Routes>
